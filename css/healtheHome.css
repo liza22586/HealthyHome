@@ -1,0 +1,463 @@
+
+* {
+    margin: 0;
+}
+.header {
+    background-image: url(../images/img-bg.png);
+    background-repeat: no-repeat; /* Убирает повтор */
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh;
+    padding-bottom: 43px;
+    margin-bottom: 59px;
+}
+
+.container, .footer {
+    width: 1350px;
+    margin: 0 auto;
+    color: #1F1E1E;
+    font-family: "Roboto";
+}
+
+.nav {
+    display: flex;
+    padding-top: 23px;
+    margin-bottom: 69px;
+}
+
+.navL {
+   margin-right: 925px;
+   display: flex; 
+}
+
+.navR {
+    display: flex; 
+}
+
+.nav-menu {
+    font-size: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 17px;
+}
+
+.nav-text h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin-bottom: 36px;
+}
+
+.button-nav {
+    width: 200px;
+    height: 30px;
+    background-color: #1F1E1E;
+    text-align: center;
+    padding-top: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 280px;
+}
+
+.button-nav a {
+    font-size: 9px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-bottom {
+    width: 286px;
+    margin-left: 990px;
+}
+
+.title {
+    color: #3C3C3C;
+    font-size: 11px;
+    margin-bottom: 18px;
+}
+
+.subTitle {
+    color: #3C3C3C;
+    font-size: 9px;
+
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a{
+    font-size: 8px;
+    margin-left: 70px;
+    text-decoration: none;
+    color: #1F1E1E;
+    text-decoration: uppercase;
+}
+
+
+.advantages {
+    display: flex;
+    margin-bottom: 47px;
+}
+
+.advantages-numbTitle {
+    display: flex;
+    margin-left: 160px;
+}
+
+.advantages-numb {
+    font-size: 18px;
+    margin-right: 17px;
+}
+
+.advantages-title {
+  font-size: 9px;  
+  padding-top: 7px;
+  color: #1F1E1E;
+}
+
+.catalog-title {
+    font-size: 125px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 76px 0; 
+}
+
+
+.catalog {
+display: flex;
+}
+
+.catalog-color {
+    margin: 0 63px 37px 47px;
+    align-items: center;
+}
+
+.catalog-color p {
+    font-size: 9px;
+    text-align: center;
+}
+
+.catalog-button {
+    width: 139px;
+    height: 30px;
+    background-color: #1F1E1E;
+    text-align: center;
+    padding-top: 7px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto 100px auto;
+
+}
+
+.catalog-button a {
+    font-size: 9px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.content p {
+    font-size: 9px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 96px;
+    margin-left: 337px;
+    text-align: center;
+    width: 681px;
+}
+
+
+.line {
+    width: 1350px; /* Длина линии */
+    height: 1px; /* Толщина линии */
+    background-color: rgba(31, 30, 30, 0.1); /* Цвет с прозрачностью 10% */
+    margin: 0 auto; /* Центрирование (опционально) */
+    margin-bottom: 40px;
+}
+
+.contant-imgs {
+    display: flex;
+    margin-bottom: 35px;
+
+}
+
+.content-text {
+    margin-left: 255px;
+    width: 546px;
+    height: 546px;
+    background-color: #F4EDE6;
+    border: none;
+    border-radius: 6px;
+}
+
+.content-text h4 {
+    font-size: 52px;
+    font-weight: normal;
+    color: #425E44;
+    width: 439px;
+    margin: 150px 53px 157px 53px;
+    text-align: center;
+}
+
+.content-text p {
+    font-size: 9px;
+    font-weight: normal;
+    color: #425E44;
+    text-align: center;
+}
+
+.post h5 {
+    font-size: 192px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.post p {
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.post-button {
+    width: 127px;
+    height: 30px;
+    background-color: #1F1E1E;
+    text-align: center;
+    padding-top: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 616px;
+    margin-bottom: 100px;
+
+}
+
+.post-button a {
+    font-size: 9px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.post-imgs1 {
+    display: flex;
+    margin-bottom: 235px;
+
+}
+
+.post-title {
+    width: 546px;
+    height: 546px;
+    margin-right: 255px;
+    background-color: #F4EDE6;
+}
+
+.post-title p {
+    font-size: 46px;
+    text-align: center;
+    width: 330px;
+    height: 200px;
+    margin: 139px 108px 40px 108px;
+}
+
+.post-imgs-button {
+    width: 139px;
+    height: 30px;
+    background-color: #1F1E1E;
+    text-align: center;
+    padding-top: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 198px;
+    margin-bottom: 100px;
+
+}
+
+.post-imgs-button a {
+    font-size: 9px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.post-imgs2 {
+    display: flex;
+    margin-bottom: 66px;
+}
+
+.post-paletteL1, .post-paletteL2 {
+    width: 273px;
+    height: 273px;
+    position: relative;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    
+}
+
+.circle1 {
+    background-color: #6A727D;
+    top: 60px;
+    left: 60px;
+
+}
+.circle2 {
+    background-color: #E0C3B0;
+    top: 335px;
+    left: 60px;
+    
+}
+
+.circle3 {
+    background-color: #445F45;
+    top: 60px;
+    left: 60px;
+}
+
+.circle4 {
+    background-color: #232121;
+    top: 335px;
+    left: 60px;
+}
+
+.post-paletteR {
+    width: 546px;
+    height: 543px;
+    margin-left: 255px;
+    background-color: #C6BC8A;
+    border: none;
+    border-radius: 8px;
+}
+
+.post-palette-title {
+    color: #425E44;
+    font-size: 52px;
+    text-align: center;
+    width: 414px;
+    margin: 157px  66px 25px 66px;
+}
+
+.post-palette-link {
+    color: #425E44;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 163px;
+}
+
+.post-palette-linkT {
+    color: #425E44;
+    font-size: 9px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.footer-registration {
+    width: 461px;
+    margin-right: 450px;
+
+}
+
+
+
+.footer-registration p {
+    font-size: 38px;
+    width: 306px;
+    margin-bottom: 8px;
+}
+
+/* кнопка */
+.form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 267px;
+    height: 37px;
+    margin-bottom: 65px;
+}
+.input {
+    border: none;
+    outline: none;
+    flex: 1; /* Заполняет доступное пространство */
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 50px 0 0 50px;
+}
+
+.submit-button {
+    border: none;
+    color: black; /* Цвет текста */
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* конец кнопки */
+
+.footer-column-bottom {
+    font-size: 9px;
+}
+
+
+
+.footer-column {
+    display: flex;
+    margin-bottom: 116px;
+}
+
+
+.footer-item { 
+    display: flex; /* Включаем Flexbox */
+    flex-direction: column; /* Располагаем элементы вертикально */
+    gap: 10px; /* Задаём расстояние между элементами (опционально) */
+    margin-right: 60px;
+}
+
+.footer-nav, .footer-nav-link {
+    text-decoration: none;
+    font-size: 9px;
+    color: #3C3C3C;
+}
+
+.footer-nav {
+    margin-bottom: 12px;
+}
+
+
+.line2 {
+    width: 1px; /* Длина линии */
+    height: 200px; /* Толщина линии */
+    background-color: rgba(31, 30, 30, 0.1); /* Цвет с прозрачностью 10% */
+    margin-right: 100px;
+    margin-top: 42px;
+}
+
+.footer-bottom {
+    display: flex;
+    margin-top: 5px;
+    width: 1300px;
+    margin-left: 165px;
+}
+
+.footer-bottom p{
+    font-size: 325px;
+    color: #1F1E1E;
+}
