@@ -12,7 +12,7 @@
     margin-bottom: 59px;
 }
 
-.container, .footer {
+.container, .footer,.bottom {
     width: 1350px;
     margin: 0 auto;
     color: #1F1E1E;
