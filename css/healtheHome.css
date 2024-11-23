@@ -2,6 +2,9 @@
 * {
     margin: 0;
 }
+.body {
+    max-width: 100%;
+}
 .header {
     background-image: url(../images/img-bg.png);
     background-repeat: no-repeat; /* Убирает повтор */
@@ -13,7 +16,8 @@
 }
 
 .container, .footer,.bottom {
-    width: 1350px;
+    /* max-width: 100%; */
+    width: 90%; /* или другой процент */
     margin: 0 auto;
     color: #1F1E1E;
     font-family: "Roboto";
@@ -120,7 +124,7 @@
     font-size: 125px;
     font-weight: normal;
     text-align: center;
-    margin: 0 0 76px 0; 
+    margin: 0 auto 76px auto; 
 }
 
 
@@ -165,9 +169,9 @@ display: flex;
 .content h3 {
     font-size: 36px;
     font-weight: normal;
-    margin-bottom: 96px;
-    margin-left: 337px;
     text-align: center;
+    align-items: center;
+    margin: 0 auto 96px auto;
     width: 681px;
 }
 
@@ -176,8 +180,7 @@ display: flex;
     width: 1350px; /* Длина линии */
     height: 1px; /* Толщина линии */
     background-color: rgba(31, 30, 30, 0.1); /* Цвет с прозрачностью 10% */
-    margin: 0 auto; /* Центрирование (опционально) */
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto; /* Центрирование (опционально) */
 }
 
 .contant-imgs {
@@ -454,7 +457,6 @@ display: flex;
     display: flex;
     margin-top: 5px;
     width: 1300px;
-    margin-left: 165px;
 }
 
 .footer-bottom p{
