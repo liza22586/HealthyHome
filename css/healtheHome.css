@@ -441,6 +441,7 @@ header {
 .footer-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-registration {
