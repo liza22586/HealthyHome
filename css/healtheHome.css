@@ -18,6 +18,7 @@ main {
 
     width: 97vw;
     max-width: 1200px;
+    min-width: 600px;
     height: 783px;
 }
 
@@ -113,6 +114,82 @@ header {
     color: #1F1E1E;
     text-decoration: uppercase;
 }
+/* медиазапрос начало*/
+@media (max-width: 900px) {
+    .nav a {
+        font-size: 8px;
+    }
+    .nav-text-internal h1 {
+        font-size: 50px;
+        line-height: 58px;
+        margin-bottom: -5px;
+    }
+    .cookie-external {
+        padding-top: 320px;
+
+    }
+    .nav-text-internal a {
+        width: 165px;
+        height: 20px;
+        font-size: 7px;
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .nav a {
+        font-size: 7px;
+        padding-right: 14px;
+    }
+
+    .nav-text-internal h1 {
+        font-size: 44px;
+        line-height: 55px;
+        margin-bottom: -15px;
+        margin-left: -30px;
+    }
+    
+    .cookie-external {
+        padding-top: 335px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-text-internal a {
+        width: 145px;
+        height: 18px;
+        font-size: 7px;
+        padding-top: 8px;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav a {
+        font-size: 6px;
+        padding-right: 12px;
+    }
+    .nav-text-internal h1 {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: -33px;
+        margin-left: -100px;
+    }
+
+    .cookie-external {
+        padding-top: 360px;
+    }
+
+    .nav-text-internal a {
+        width: 133px;
+        height: 16px;
+        font-size: 6px;
+        padding-top: 8px;
+        margin-left: -100px;
+    }
+
+}
+/* медиазапрос конец*/
 
 .catalog {
     margin-top: 60px;
@@ -132,6 +209,7 @@ header {
 .catalog-start-item {
     display: flex;
     align-items: center;
+    width: 170px;
 }
 
 .catalog-start-item span {
@@ -200,6 +278,33 @@ header {
     border-radius: 5px;
 }
 
+
+/* медиазапрос начало*/
+
+@media (max-width: 670px) {
+    .catalog-start-item {
+        font-size: 8px;
+        line-height: 12.75px;
+        font-size: 15px;
+    }
+    .catalog-title {
+        font-size: 83px;
+        line-height: 96px;
+    }
+
+    .catalog {
+        padding-bottom: 61px;
+    }
+
+    .catalog-button {
+        width: 120px;
+        height: 21px;
+        font-size: 7px;
+    }
+}
+
+/* конец медиазапрос */
+
 .content-external {
     display: flex;
     justify-content: center;
@@ -261,6 +366,57 @@ header {
     color: #425E44;
     text-align: center;
 }
+
+/* медиазапрос начало*/
+
+@media (max-width: 1217px) {
+
+    .content-text p {
+        padding-bottom: 0px;
+
+    }
+}
+@media (max-width: 900px) {
+    .content p {
+        font-size: 8px;
+    }
+    .content h3 {
+        font-size: 30px;
+    }
+
+    .content {
+        margin-bottom: 66px;
+    }
+}
+    
+    @media (max-width: 670px) {
+        .content h3 {
+            font-size: 23px;
+        }
+
+        .contant-imgs img {
+          width: 400px;
+          height: 400px;
+        }
+
+        .content-text {
+            width: 400px;
+            height: 400px;
+        }
+        
+        .content-text h4 {
+            font-size: 25px;
+            width: 300px;
+        }
+
+        .content-text p {
+            font-size: 6px;
+        }
+    }
+
+
+/* конец медиазапрос */
+
 
 .post-external {
     margin-top: 35px; 
@@ -420,7 +576,7 @@ header {
     font-size: 52px;
     text-align: center;
     width: 414px;
-    margin: 157px  66px 25px 66px;
+    margin: 157px  auto 25px auto;
 }
 
 .post-palette-link {
@@ -435,6 +591,120 @@ header {
     font-size: 9px;
     text-align: center;
 }
+
+/* медиазапрос начало*/
+@media (max-width: 1220px) {
+    .post-imgs1 {
+        margin-bottom: 80px;
+    }
+    .post-paletteR {
+        margin-top: 272px;
+        margin-bottom: 20px;
+    }
+} 
+
+@media (max-width: 1108px) {
+    .line, .line2 {
+        display: none;
+    }
+
+    .post h5{
+        font-size: 126px;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .post p {
+        font-size: 18px;
+        line-height: 25.17px;
+    }
+
+    .post-button {
+        font-size: 8px;
+        width: 119px;
+        height: 20px;
+        padding-top: 10px;
+    }
+    .post h5 {
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 670px) {
+    .post-title, .post-paletteR {
+        width: 400px;
+        height: 400px;
+        min-width: 400px;
+    }
+
+    .post-title p {
+        font-size: 27px;
+        width: 187px;
+    }
+
+    .post-imgs-button {
+        font-size: 6px;
+        width: 106px;
+        height: 18px;
+        margin-top: -47px;
+        padding-top: 10px;
+    }
+
+
+    .post-imgs1 img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .post-paletteL1, .post-paletteL2 {
+        width: 200px;
+
+    }
+
+    .post-paletteL1 img, .post-paletteL2 img {
+        width: 196px;
+    }
+
+    .circle1, .circle2, .circle3, .circle4 {
+        width: 78px;
+        height: 80px;
+    }
+    .circle2, .circle4 {
+        top: 260px;
+    }
+
+    .post-palette-title {
+        font-size: 25px;
+        width: 225px;
+        margin-top: 96px;
+    }
+    .post-palette-link {
+        font-size: 14px;
+    }
+    .post-palette-linkT {
+        font-size: 6px;
+    }
+
+    .post-paletteR {
+        margin-top: 120px;
+    }
+
+    .post h5 {
+        font-size: 60px;
+        margin-bottom: -29px;
+    }
+    .post p {
+        font-size: 14px;
+        line-height: 21.17px;
+    }
+}
+
+
+/* конец медиазапрос */
+
+
 
 /* footer */
 
@@ -532,7 +802,37 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* min-width: 1110px; */
 }
 
+
+/* медиазапрос начало*/
+@media (max-width: 1165px) {
+    .footer-bottom img{
+        width: 90px;
+        height: 90px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 879px) {
+
+    .footer-column-bottom {
+        margin-bottom: 40px;
+    }
+
+    .form {
+        margin-bottom: 28px; 
+    }
+
+    .footer-column {
+        width: 300px;
+    }
+
+    .footer-bottom img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* конец медиазапрос */
 
