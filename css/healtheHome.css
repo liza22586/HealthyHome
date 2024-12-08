@@ -14,11 +14,12 @@ main {
     margin: 8px auto;
     background-image: url(../images/img-bg.jpg);
     background-size: cover; 
-    background-position: center; 
-
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #445F45;
     width: 97vw;
     max-width: 1200px;
-    min-width: 600px;
     height: 783px;
 }
 
@@ -120,6 +121,7 @@ header {
         font-size: 8px;
     }
     .nav-text-internal h1 {
+        width: 370px;
         font-size: 50px;
         line-height: 58px;
         margin-bottom: -5px;
@@ -138,6 +140,8 @@ header {
 }
 
 @media (max-width: 600px) {
+
+
     .nav a {
         font-size: 7px;
         padding-right: 14px;
@@ -147,7 +151,6 @@ header {
         font-size: 44px;
         line-height: 55px;
         margin-bottom: -15px;
-        margin-left: -30px;
     }
     
     .cookie-external {
@@ -160,7 +163,6 @@ header {
         height: 18px;
         font-size: 7px;
         padding-top: 8px;
-        margin-left: -30px;
     }
 }
 
@@ -173,7 +175,6 @@ header {
         font-size: 40px;
         line-height: 47px;
         margin-bottom: -33px;
-        margin-left: -100px;
     }
 
     .cookie-external {
@@ -185,7 +186,6 @@ header {
         height: 16px;
         font-size: 6px;
         padding-top: 8px;
-        margin-left: -100px;
     }
 
 }
@@ -202,7 +202,6 @@ header {
     flex-wrap: wrap;
     gap: 15px;
     align-items: center;
-    padding-left: 55px;
     margin-bottom: 40px;
 }
 
@@ -281,6 +280,10 @@ header {
 
 /* медиазапрос начало*/
 
+.catalog-inner {
+    justify-content: space-around;
+}
+
 @media (max-width: 670px) {
     .catalog-start-item {
         font-size: 8px;
@@ -299,6 +302,7 @@ header {
     .catalog-button {
         width: 120px;
         height: 21px;
+
         font-size: 7px;
     }
 }
@@ -347,10 +351,13 @@ header {
     width: 100%;
 }
 
+
+
 .content-text {
     background-color: #F4EDE6;
     border: none;
     border-radius: 6px;
+    /* width: 47%; */
 }
 
 .content-text h4 {
@@ -393,16 +400,6 @@ header {
         .content h3 {
             font-size: 23px;
         }
-
-        .contant-imgs img {
-          width: 400px;
-          height: 400px;
-        }
-
-        .content-text {
-            width: 400px;
-            height: 400px;
-        }
         
         .content-text h4 {
             font-size: 25px;
@@ -411,6 +408,11 @@ header {
 
         .content-text p {
             font-size: 6px;
+        }
+
+        .contant-imgs img, .content-text { 
+            width: 370px;
+            height: 370px;
         }
     }
 
@@ -633,10 +635,13 @@ header {
 }
 
 @media (max-width: 670px) {
+
+    .post-paletteL1-external {
+        width: 370px;
+    }
     .post-title, .post-paletteR {
-        width: 400px;
-        height: 400px;
-        min-width: 400px;
+        width: 370px;
+        height: 370px;
     }
 
     .post-title p {
@@ -654,8 +659,8 @@ header {
 
 
     .post-imgs1 img{
-        width: 400px;
-        height: 400px;
+        width: 370px;
+        height: 370px;
     }
 
     .post-paletteL1, .post-paletteL2 {
@@ -664,7 +669,7 @@ header {
     }
 
     .post-paletteL1 img, .post-paletteL2 img {
-        width: 196px;
+        width: 170px;
     }
 
     .circle1, .circle2, .circle3, .circle4 {
